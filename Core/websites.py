@@ -110,6 +110,11 @@ mediafire = { "url":"https://www.mediafire.com/dynamic/client_login/mediafire.ph
 	"verify":["login"]#After submitting if this words exist in the response page then login not successful
 	 }
 
+extravm = { "url":"https://extravm.com/billing/dologin.php" ,
+	"e_form":"email" ,
+	"p_form":"password",
+	"verify":["login"]#After submitting if this words exist in the response page then login not successful
+}
 ##############################
 #### Organizing websites #####
 ##############################
@@ -138,4 +143,6 @@ custom_websites = {"Google":google,
 				   }
 
 req_websites = { "Mediafire":mediafire
+}
+req_websites = { "extravm":extravm
 }
